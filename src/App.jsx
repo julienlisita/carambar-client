@@ -7,7 +7,7 @@ import Layout from "./layout/Layout";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/carambar-client">
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
